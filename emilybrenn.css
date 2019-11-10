@@ -369,6 +369,10 @@ p.banner {
 	.name {
 		font-size: 1.8rem;
 		line-height: 1.2rem;
+		color: white;
+	}
+	.sub-name {
+		color: white;
 	}
 	header {
 		background-image: url("https://imgur.com/a/dm34Ntb");
@@ -383,13 +387,9 @@ p.banner {
 	}
 }
 
-@media (min-width: 440px) 
-	body {
-		font-size: 16px;
-	}
-}
 
 @media (max-width: 440px) {
+	
 	h1,
 	h2,
 	h3,
@@ -403,9 +403,6 @@ p.banner {
 	.pagination {
 		margin-left: 1rem;
 		margin-right: 1rem;
-	}
-	.name {
-		color: white;
 	}
 
 	h1,
